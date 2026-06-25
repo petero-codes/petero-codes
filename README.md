@@ -313,7 +313,13 @@ Framework for reviewing LLM reasoning, instruction-following, and safety.
 </div>
 
 <br>
+## `> contribution-snake`
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/petero-codes/petero-codes/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+
+</div>
 ## `> contribution-snake`
 
 <div align="center">
