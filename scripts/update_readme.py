@@ -1,12 +1,14 @@
 """
-Script to automatically update the 'daily-insight' section of README.md.
+Script to automatically generate a Glassmorphic & Mirrormorphic daily developer insight SVG
+and update README.md accordingly.
 Runs without third-party dependencies using standard library modules.
 """
 
 from datetime import datetime, timezone, timedelta
-import random
-import re
+import html
 from pathlib import Path
+import re
+import textwrap
 
 # Professional software engineering & computer science quotes/insights
 INSIGHTS = [
@@ -67,7 +69,7 @@ INSIGHTS = [
         "author": "Antoine de Saint-Exupéry",
     },
     {
-        "quote": "Good code is its own best documentation. As you're about to add a comment, ask yourself: 'How can I improve the code so that this comment isn't needed?'",
+        "quote": "Good code is its own best documentation. Improve the code so comments aren't needed.",
         "author": "Steve McConnell",
     },
     {
@@ -78,42 +80,178 @@ INSIGHTS = [
 
 
 def get_daily_insight():
-    # Use day of the year to cycle through insights deterministically, or pick pseudo-randomly
     day_of_year = datetime.now(timezone.utc).timetuple().tm_yday
     return INSIGHTS[day_of_year % len(INSIGHTS)]
 
 
-def generate_block():
+def generate_svg(insight, date_str, time_str):
+    quote = html.escape(insight["quote"])
+    author = html.escape(insight["author"])
+
+    # Wrap text cleanly for SVG rendering
+    lines = textwrap.wrap(quote, width=70)
+    if len(lines) == 1:
+        start_y = 100
+        dy = 0
+    elif len(lines) == 2:
+        start_y = 88
+        dy = 24
+    else:
+        start_y = 80
+        dy = 22
+
+    tspan_elements = []
+    for i, line in enumerate(lines):
+        line_dy = 0 if i == 0 else dy
+        tspan_elements.append(f'<tspan x="82" dy="{line_dy}">{line}</tspan>')
+    tspan_markup = "\n      ".join(tspan_elements)
+
+    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Ambient Glowing Orbs for Glassmorphism -->
+    <radialGradient id="orbBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Translucent Frosted Glass Surface Gradient -->
+    <linearGradient id="glassSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.94"/>
+    </linearGradient>
+
+    <!-- Glassmorphic Border with Specular Edge Sheen -->
+    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.50"/>
+      <stop offset="25%" stop-color="#58A6FF" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#161b22" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.10"/>
+    </linearGradient>
+
+    <!-- Mirrormorphic Specular Glare (diagonal light streak across glass) -->
+    <linearGradient id="specularGlare" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="28%" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Mirrormorphic Floor Reflection Gradient Mask -->
+    <linearGradient id="mirrorFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.0"/>
+    </linearGradient>
+    <mask id="mirrorMask">
+      <rect x="25" y="196" width="800" height="54" fill="url(#mirrorFade)"/>
+    </mask>
+
+    <!-- Status badge pill gradient -->
+    <linearGradient id="statusGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#238636" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2ea043" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono {{ font-family: 'Fira Code', 'SF Mono', Consolas, Monaco, monospace; }}
+    .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }}
+  </style>
+
+  <!-- Ambient Light Orbs behind the frosted glass -->
+  <circle cx="150" cy="70" r="140" fill="url(#orbBlue)"/>
+  <circle cx="700" cy="130" r="130" fill="url(#orbPurple)"/>
+
+  <!-- ================= MIRRORMORPHISM: FLOOR REFLECTION ================= -->
+  <g mask="url(#mirrorMask)" opacity="0.45" transform="translate(0, 392) scale(1, -1)">
+    <rect x="25" y="20" width="800" height="175" rx="16" fill="url(#glassSurface)" stroke="url(#glassBorder)" stroke-width="1.2"/>
+    <line x1="25" y1="56" x2="825" y2="56" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  </g>
+
+  <!-- ================= GLASSMORPHISM: MAIN FROSTED GLASS CARD ================= -->
+  <g id="main-glass-card">
+    <!-- Base Glass Surface -->
+    <rect x="25" y="20" width="800" height="175" rx="16" fill="url(#glassSurface)" stroke="url(#glassBorder)" stroke-width="1.2"/>
+
+    <!-- Mirrormorphic Specular Reflection Flare across glass top-left -->
+    <path d="M 25 36 Q 25 20 41 20 L 460 20 L 300 195 L 25 195 Z" fill="url(#specularGlare)"/>
+
+    <!-- Top Window Bar Divider -->
+    <line x1="25" y1="56" x2="825" y2="56" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+    <!-- Terminal Window Controls (macOS style dots) -->
+    <circle cx="50" cy="38" r="5" fill="#ff5f56" opacity="0.85"/>
+    <circle cx="68" cy="38" r="5" fill="#ffbd2e" opacity="0.85"/>
+    <circle cx="86" cy="38" r="5" fill="#27c93f" opacity="0.85"/>
+
+    <!-- Window Title -->
+    <text x="110" y="42" fill="#8b949e" font-size="12" class="mono">&gt; daily-insight // Nairobi (UTC+03:00)</text>
+
+    <!-- Status Pill Badge (Top Right) -->
+    <g transform="translate(685, 27)">
+      <rect width="120" height="22" rx="11" fill="url(#statusGlow)" stroke="#3fb950" stroke-width="0.8" stroke-opacity="0.4"/>
+      <circle cx="14" cy="11" r="3.5" fill="#3fb950"/>
+      <text x="25" y="15" fill="#3fb950" font-size="10.5" font-weight="600" class="mono">DAILY SYNC</text>
+    </g>
+
+    <!-- Quote Decorative Marks -->
+    <text x="50" y="105" fill="#58a6ff" font-size="34" font-weight="800" opacity="0.6" class="sans">“</text>
+
+    <!-- Dynamic Quote Lines -->
+    <text x="82" y="{start_y}" fill="#e6edf3" font-size="15" font-weight="500" class="sans">
+      {tspan_markup}
+    </text>
+
+    <!-- Author & Attribution -->
+    <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— {author}</text>
+
+    <!-- Footer Metadata -->
+    <text x="82" y="172" fill="#6e7681" font-size="10.5" class="mono">⚡ Auto-synced daily via GitHub Actions • {date_str} • petero-codes</text>
+  </g>
+</svg>
+"""
+    return svg_content
+
+
+def update_readme():
+    root_dir = Path(__file__).resolve().parent.parent
+    assets_dir = root_dir / "assets"
+    assets_dir.mkdir(exist_ok=True)
+
     insight = get_daily_insight()
-    # Nairobi is UTC+3
     eat_tz = timezone(timedelta(hours=3))
     now_eat = datetime.now(eat_tz)
     date_str = now_eat.strftime("%d %b %Y")
     time_str = now_eat.strftime("%H:%M EAT")
 
-    content = f"""<!-- DAILY-INSIGHT:START -->
-## `> daily-insight`
+    # Generate and save the Glassmorphism + Mirrormorphism SVG card
+    svg_content = generate_svg(insight, date_str, time_str)
+    svg_path = assets_dir / "daily-insight.svg"
+    svg_path.write_text(svg_content, encoding="utf-8")
+    print(f"Generated glassmorphic SVG card at: {svg_path}")
 
-> *"{insight['quote']}"*
->
-> — **{insight['author']}**
->
-> <sub>*⚡ Auto-synced daily via GitHub Actions • {date_str} • Nairobi (UTC+03:00)*</sub>
-<!-- DAILY-INSIGHT:END -->"""
-    return content
-
-
-def update_readme():
-    readme_path = Path(__file__).resolve().parent.parent / "README.md"
+    # Embed card into README.md
+    readme_path = root_dir / "README.md"
     content = readme_path.read_text(encoding="utf-8")
 
-    new_block = generate_block()
+    new_block = f"""<!-- DAILY-INSIGHT:START -->
+<div align="center">
+
+<a href="https://github.com/petero-codes/petero-codes">
+  <img src="assets/daily-insight.svg" alt="Daily Developer Insight - Peter Njuguna" width="850" />
+</a>
+
+</div>
+<!-- DAILY-INSIGHT:END -->"""
+
     pattern = r"<!-- DAILY-INSIGHT:START -->[\s\S]*?<!-- DAILY-INSIGHT:END -->"
 
     if re.search(pattern, content):
         updated_content = re.sub(pattern, new_block, content)
     else:
-        # If marker doesn't exist yet, insert right before '## `> current-focus.yaml`' or after 'whoami'
         target = "## `> current-focus.yaml`"
         if target in content:
             updated_content = content.replace(target, f"{new_block}\n\n<br>\n\n{target}")
@@ -121,7 +259,7 @@ def update_readme():
             updated_content = content + f"\n\n{new_block}\n"
 
     readme_path.write_text(updated_content, encoding="utf-8")
-    print("README.md successfully updated with daily insight.")
+    print("README.md successfully updated with glassmorphic daily insight card.")
 
 
 if __name__ == "__main__":

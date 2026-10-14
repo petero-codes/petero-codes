@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --global user.name "petero-codes"
           git config --global user.email "chapokumih@gmail.com"
-          git add README.md
+          git add README.md assets/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

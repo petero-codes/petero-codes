@@ -324,13 +324,13 @@ Framework for reviewing LLM reasoning, instruction-following, and safety.
 <br>
 
 <!-- DAILY-INSIGHT:START -->
-## `> daily-insight`
+<div align="center">
 
-> *"It is not enough for code to work. It must be clean, maintainable, and resilient."*
->
-> — **Clean Code Philosophy**
->
-> <sub>*⚡ Auto-synced daily via GitHub Actions • 14 Oct 2026 • Nairobi (UTC+03:00)*</sub>
+<a href="https://github.com/petero-codes/petero-codes">
+  <img src="assets/daily-insight.svg" alt="Daily Developer Insight - Peter Njuguna" width="850" />
+</a>
+
+</div>
 <!-- DAILY-INSIGHT:END -->
 
 <br>
