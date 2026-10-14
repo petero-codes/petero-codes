@@ -1,6 +1,6 @@
 """
-Script to automatically generate a Glassmorphic & Mirrormorphic daily developer insight SVG
-and update README.md accordingly.
+Script to automatically generate a Glassmorphic & Mirrormorphic developer insight SVG
+and update README.md cleanly and silently.
 Runs without third-party dependencies using standard library modules.
 """
 
@@ -10,7 +10,7 @@ from pathlib import Path
 import re
 import textwrap
 
-# Professional software engineering & computer science quotes/insights
+# Curated engineering & computer science principles
 INSIGHTS = [
     {
         "quote": "Simplicity is prerequisite for reliability.",
@@ -148,12 +148,6 @@ def generate_svg(insight, date_str, time_str):
     <mask id="mirrorMask">
       <rect x="25" y="196" width="800" height="54" fill="url(#mirrorFade)"/>
     </mask>
-
-    <!-- Status badge pill gradient -->
-    <linearGradient id="statusGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#238636" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#2ea043" stop-opacity="0.15"/>
-    </linearGradient>
   </defs>
 
   <style>
@@ -188,14 +182,7 @@ def generate_svg(insight, date_str, time_str):
     <circle cx="86" cy="38" r="5" fill="#27c93f" opacity="0.85"/>
 
     <!-- Window Title -->
-    <text x="110" y="42" fill="#8b949e" font-size="12" class="mono">&gt; daily-insight // Nairobi (UTC+03:00)</text>
-
-    <!-- Status Pill Badge (Top Right) -->
-    <g transform="translate(685, 27)">
-      <rect width="120" height="22" rx="11" fill="url(#statusGlow)" stroke="#3fb950" stroke-width="0.8" stroke-opacity="0.4"/>
-      <circle cx="14" cy="11" r="3.5" fill="#3fb950"/>
-      <text x="25" y="15" fill="#3fb950" font-size="10.5" font-weight="600" class="mono">DAILY SYNC</text>
-    </g>
+    <text x="110" y="42" fill="#8b949e" font-size="12" class="mono">&gt; engineering-principles // core-philosophy</text>
 
     <!-- Quote Decorative Marks -->
     <text x="50" y="105" fill="#58a6ff" font-size="34" font-weight="800" opacity="0.6" class="sans">“</text>
@@ -208,8 +195,8 @@ def generate_svg(insight, date_str, time_str):
     <!-- Author & Attribution -->
     <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— {author}</text>
 
-    <!-- Footer Metadata -->
-    <text x="82" y="172" fill="#6e7681" font-size="10.5" class="mono">⚡ Auto-synced daily via GitHub Actions • {date_str} • petero-codes</text>
+    <!-- Clean Footer -->
+    <text x="82" y="172" fill="#6e7681" font-size="10.5" class="mono">// Peter Njuguna · Software Engineering &amp; Systems Architecture</text>
   </g>
 </svg>
 """
@@ -227,22 +214,20 @@ def update_readme():
     date_str = now_eat.strftime("%d %b %Y")
     time_str = now_eat.strftime("%H:%M EAT")
 
-    # Generate and save the Glassmorphism + Mirrormorphism SVG card
+    # Generate and save the clean Glassmorphic SVG card
     svg_content = generate_svg(insight, date_str, time_str)
     svg_path = assets_dir / "daily-insight.svg"
     svg_path.write_text(svg_content, encoding="utf-8")
-    print(f"Generated glassmorphic SVG card at: {svg_path}")
+    print(f"Generated clean glassmorphic SVG card at: {svg_path}")
 
-    # Embed card into README.md
+    # Embed card into README.md silently
     readme_path = root_dir / "README.md"
     content = readme_path.read_text(encoding="utf-8")
 
     new_block = f"""<!-- DAILY-INSIGHT:START -->
 <div align="center">
 
-<a href="https://github.com/petero-codes/petero-codes">
-  <img src="assets/daily-insight.svg" alt="Daily Developer Insight - Peter Njuguna" width="850" />
-</a>
+<img src="assets/daily-insight.svg" alt="Engineering Principles - Peter Njuguna" width="850" />
 
 </div>
 <!-- DAILY-INSIGHT:END -->"""
@@ -252,14 +237,14 @@ def update_readme():
     if re.search(pattern, content):
         updated_content = re.sub(pattern, new_block, content)
     else:
-        target = "## `> current-focus.yaml`"
+        target = "## 02 — Technical Skills"
         if target in content:
             updated_content = content.replace(target, f"{new_block}\n\n<br>\n\n{target}")
         else:
             updated_content = content + f"\n\n{new_block}\n"
 
     readme_path.write_text(updated_content, encoding="utf-8")
-    print("README.md successfully updated with glassmorphic daily insight card.")
+    print("README.md successfully updated cleanly.")
 
 
 if __name__ == "__main__":

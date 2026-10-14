@@ -1,10 +1,10 @@
-name: Daily Profile README Sync
+name: Profile Update
 
 on:
   schedule:
     # Runs daily at 06:00 UTC (09:00 EAT Nairobi time)
     - cron: "0 6 * * *"
-  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab anytime
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -33,6 +33,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "docs(readme): sync daily developer insight [skip ci]"
+            git commit -m "docs: update engineering insights [skip ci]"
             git push origin main
           fi

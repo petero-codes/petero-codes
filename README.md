@@ -16,7 +16,7 @@
 
 ## 01 — About Me
 
-I build web applications, backend services, and data-driven systems with a strong focus on clean architecture, secure data handling, and maintainable code. My primary specialization is **backend engineering with Python and PostgreSQL**, complemented by the full-stack capability to design and ship responsive user interfaces.
+I build web applications, backend services, and data-driven systems with a strong focus on clean architecture, secure data handling, and maintainable code. My primary specialization is **backend engineering with Python and PostgreSQL**, complemented by full-stack capability to design and ship responsive user interfaces.
 
 * 🔭 **Currently focused on:** Backend engineering, high-performance REST APIs, database modeling, and system architecture.
 * 🛠️ **Building with:** Python (FastAPI/Flask), TypeScript, Node.js, Express, React, Next.js, and SQL.
@@ -29,9 +29,7 @@ I build web applications, backend services, and data-driven systems with a stron
 <!-- DAILY-INSIGHT:START -->
 <div align="center">
 
-<a href="https://github.com/petero-codes/petero-codes">
-  <img src="assets/daily-insight.svg" alt="Daily Developer Insight - Peter Njuguna" width="850" />
-</a>
+<img src="assets/daily-insight.svg" alt="Engineering Principles - Peter Njuguna" width="850" />
 
 </div>
 <!-- DAILY-INSIGHT:END -->
@@ -40,13 +38,9 @@ I build web applications, backend services, and data-driven systems with a stron
 
 ## 02 — Technical Skills
 
-Consistent skill ecosystem powered by [Skill Icons](https://github.com/tandpfun/skill-icons):
-
 #### ⚡ Backend & Databases *(Primary Specialization)*
 <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express,postgres,mysql,mongodb&theme=dark" alt="Backend & Databases" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express,postgres,mysql,mongodb&theme=dark" alt="Backend & Databases" />
 </p>
 
 * **Core Backend:** Python, FastAPI, Flask, Node.js, Express.js, RESTful APIs, JWT Authentication, Role-Based Access Control (RBAC).
@@ -54,21 +48,17 @@ Consistent skill ecosystem powered by [Skill Icons](https://github.com/tandpfun/
 
 #### 🎨 Frontend & Web Development
 <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" alt="Frontend Development" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" alt="Frontend Development" />
 </p>
 
 * **UI & Client Architecture:** TypeScript, JavaScript (ES6+), React.js, Next.js, Tailwind CSS, Responsive Design, State Management.
 
 #### 🛠️ DevOps, Infrastructure & Tools
 <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman,vscode&theme=dark" alt="Tools & DevOps" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman,vscode&theme=dark" alt="Tools & DevOps" />
 </p>
 
-* **Tooling:** Git, GitHub Actions (CI/CD), Linux CLI, Docker (Personal Architectures), Postman, VS Code, Vercel.
+* **Tooling:** Git, GitHub Actions, Linux CLI, Docker, Postman, VS Code, Vercel.
 
 #### 🛡️ Quality, Security & Engineering Practices
 * **Principles:** Strict Separation of Concerns, Server-Side Defensive Validation (Pydantic / Schemas).
@@ -85,7 +75,7 @@ Consistent skill ecosystem powered by [Skill Icons](https://github.com/tandpfun/
   * Dynamic catalog filtering by release date, brand, and pricing tiers.
   * Persistent shopping cart state and responsive storefront interface.
   * REST API endpoints designed for inventory retrieval and session management.
-* [**View Source Code →**](https://github.com/petero-codes)
+* 🔗 [**Live Portfolio Showcase ↗**](https://iam-petero.vercel.app/) • [**Source Code ↗**](https://github.com/petero-codes)
 
 ---
 
@@ -96,11 +86,11 @@ Consistent skill ecosystem powered by [Skill Icons](https://github.com/tandpfun/
   * Deterministic scheduling algorithms managing participant payout rotation cycles.
   * Audit logging and transaction history to verify group contribution compliance.
   * Transparent dashboards reflecting real-time member records and status.
-* [**View Source Code →**](https://github.com/petero-codes)
+* 🔗 [**Live Dashboard ↗**](https://finnanceclub.vercel.app/dashboard) • [**Source Code ↗**](https://github.com/petero-codes)
 
 ---
 
-### 3. [Production Backend & API Architecture](https://github.com/petero-codes)
+### 3. [Production Backend & API Architecture](https://github.com/petero-codes?tab=repositories)
 > Demonstrating production-grade backend design patterns, secure data handling, and automated test pipelines.
 * **Tech Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker
 * **Highlights:**
@@ -108,18 +98,18 @@ Consistent skill ecosystem powered by [Skill Icons](https://github.com/tandpfun/
   * Strict defensive input validation using Pydantic schemas.
   * Stateless JWT authentication with granular permission scopes (RBAC).
   * Automated migration workflows with Alembic and comprehensive test suites via `pytest`.
-* [**Explore Repositories →**](https://github.com/petero-codes)
+* 🔗 [**Explore Codebases ↗**](https://github.com/petero-codes?tab=repositories)
 
 ---
 
-### 4. [AI Evaluation & Automated Verification Framework](https://github.com/petero-codes)
+### 4. [AI Evaluation & Automated Verification Framework](https://github.com/petero-codes?tab=repositories)
 > Structured quality assurance workflows for large language models, dataset integrity, and fact verification.
 * **Tech Stack:** Python · LLM Assessment Frameworks · Data Validation
 * **Highlights:**
   * Evaluated and ranked 1,000+ AI-generated responses for reasoning accuracy, instruction adherence, and safety.
   * Automated benchmark evaluation scripts to detect hallucination and measure response quality.
   * Standardized datasets for high-fidelity model alignment and fine-tuning pipelines.
-* [**Explore AI Work →**](https://github.com/petero-codes)
+* 🔗 [**Explore AI Work ↗**](https://github.com/petero-codes?tab=repositories)
 
 <br>
 
