@@ -320,13 +320,18 @@ Framework for reviewing LLM reasoning, instruction-following, and safety.
 <img src="https://raw.githubusercontent.com/petero-codes/petero-codes/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 </div>
-## `> contribution-snake`
 
-<div align="center">
+<br>
 
-![Snake animation](https://raw.githubusercontent.com/petero-codes/petero-codes/output/github-contribution-grid-snake-dark.svg)
+<!-- DAILY-INSIGHT:START -->
+## `> daily-insight`
 
-</div>
+> *"It is not enough for code to work. It must be clean, maintainable, and resilient."*
+>
+> — **Clean Code Philosophy**
+>
+> <sub>*⚡ Auto-synced daily via GitHub Actions • 14 Oct 2026 • Nairobi (UTC+03:00)*</sub>
+<!-- DAILY-INSIGHT:END -->
 
 <br>
 
