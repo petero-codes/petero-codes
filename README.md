@@ -68,14 +68,14 @@ I build web applications, backend services, and data-driven systems with a stron
 
 ## 03 — Featured Projects
 
-### 1. [Seekon Sneakerverse](https://github.com/petero-codes) — Full-Stack E-Commerce Platform
-> Complete sneaker and apparel discovery experience built for speed, catalog browsing, and seamless cart operations.
+### 1. [Seekon Apparel](https://www.seekonapparelglobal.com/) — Full-Stack E-Commerce Platform
+> Production sneaker and apparel e-commerce platform built for speed, catalog browsing, inventory tracking, and seamless cart operations.
 * **Tech Stack:** React.js · Node.js · Express.js · MongoDB / PostgreSQL · Tailwind CSS
 * **Highlights:**
-  * Dynamic catalog filtering by release date, brand, and pricing tiers.
+  * Dynamic catalog filtering by release date, category, and pricing tiers.
   * Persistent shopping cart state and responsive storefront interface.
-  * REST API endpoints designed for inventory retrieval and session management.
-* 🔗 [**Live Portfolio Showcase ↗**](https://iam-petero.vercel.app/) • [**Source Code ↗**](https://github.com/petero-codes)
+  * REST API endpoints designed for inventory retrieval, order processing, and session management.
+* 🔗 [**Live Platform ↗**](https://www.seekonapparelglobal.com/) • [**Backend Source Code ↗**](https://github.com/nimrodkibet06/seekon_backend)
 
 ---
 
