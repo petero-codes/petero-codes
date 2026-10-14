@@ -79,26 +79,26 @@ I build web applications, backend services, and data-driven systems with a stron
 
 ---
 
-### 2. [Merygoround](https://github.com/petero-codes) — Rotating Savings & Contribution Engine
-> Financial management platform designed for structured group savings (ROSCA) and automated contribution schedules.
-* **Tech Stack:** React.js · Node.js · REST APIs · Relational Modeling
+### 2. [KenGen ICT Budgeting Portal](https://github.com/petero-codes/budget-planner) — Enterprise Financial Workflow
+> Secure enterprise web portal built for KenGen ICT annual budgeting, featuring multi-tiered approval workflows and financial reporting.
+* **Tech Stack:** Next.js 14 (App Router) · TypeScript · SQL Server · Clean Architecture · Vitest · Tailwind CSS
 * **Highlights:**
-  * Deterministic scheduling algorithms managing participant payout rotation cycles.
-  * Audit logging and transaction history to verify group contribution compliance.
-  * Transparent dashboards reflecting real-time member records and status.
-* 🔗 [**Live Dashboard ↗**](https://finnanceclub.vercel.app/dashboard) • [**Source Code ↗**](https://github.com/petero-codes)
+  * Clean Architecture design isolating domain logic, application use cases, and infrastructure drivers.
+  * Hierarchical tree-based approval workflows via manager references (`Users.managerId`).
+  * Automated SAP CSV export pipelines upon final administrative budget approval.
+  * Robust unit test coverage with Vitest and versioned SQL Server database migration schemas.
+* 🔗 [**View Repository & Architecture ↗**](https://github.com/petero-codes/budget-planner)
 
 ---
 
-### 3. [Production Backend & API Architecture](https://github.com/petero-codes?tab=repositories)
-> Demonstrating production-grade backend design patterns, secure data handling, and automated test pipelines.
-* **Tech Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker
+### 3. [Greatness Within — Engineering Showcase](https://github.com/petero-codes/greatness-within-website) — Web Platform
+> High-performance responsive web application built with a modern component architecture, fluid animations, and dark aesthetics.
+* **Tech Stack:** Next.js · TypeScript · Tailwind CSS · Framer Motion · Vercel
 * **Highlights:**
-  * Clean architectural boundaries: Router → Service Layer → Repository Pattern.
-  * Strict defensive input validation using Pydantic schemas.
-  * Stateless JWT authentication with granular permission scopes (RBAC).
-  * Automated migration workflows with Alembic and comprehensive test suites via `pytest`.
-* 🔗 [**Explore Codebases ↗**](https://github.com/petero-codes?tab=repositories)
+  * Component-driven architecture optimized for mobile, tablet, and desktop viewports.
+  * Accessible design system utilizing Tailwind utility styling and Framer Motion micro-interactions.
+  * Continuous deployment pipeline with automated production builds on Vercel.
+* 🔗 [**Live Platform ↗**](https://iam-petero.vercel.app/) • [**Source Code ↗**](https://github.com/petero-codes/greatness-within-website)
 
 ---
 
