@@ -1,7 +1,3 @@
-# Hi, I'm Peter 👋
-### Software Engineer · Backend · Full-Stack · AI
-**Nairobi, Kenya** • [Portfolio](https://iam-petero.vercel.app/) • [LinkedIn](https://www.linkedin.com/in/peter-njuguna-13b00a411) • [Email](mailto:chapokumih@gmail.com)
-
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0D1117&fontColor=58A6FF&text=Peter%20Njuguna&fontSize=34&desc=Software%20Engineer%20%7C%20Backend%20%C2%B7%20Full-Stack%20%C2%B7%20AI&descColor=8B949E&animation=fadeIn&height=170" />
@@ -10,13 +6,22 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&color=58A6FF&center=true&vCenter=true&width=850&height=36&lines=Software+Engineer+%7C+Backend+%C2%B7+Full-Stack+%C2%B7+AI;Specializing+in+Python%2C+FastAPI%2C+PostgreSQL+%26+React;Building+production+APIs+%26+practical+AI+evaluations;Nairobi%2C+Kenya" />
 
+<br><br>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=58A6FF)](https://iam-petero.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF)](https://www.linkedin.com/in/peter-njuguna-13b00a411)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF)](mailto:chapokumih@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF)](https://github.com/petero-codes)
+
 </div>
 
 <br>
 
 ## 01 — About Me
 
-I build web applications, backend services, and data-driven systems with a strong focus on clean architecture, secure data handling, and maintainable code. My primary specialization is **backend engineering with Python and PostgreSQL**, complemented by full-stack capability to design and ship responsive user interfaces.
+I am a **Software Engineer** based in Nairobi, Kenya, building applications, backend services, and data-driven systems with a strong foundation in **Python**, modern JavaScript/TypeScript, and relational databases. 
+
+My engineering focuses on **backend architecture as my main specialization**—designing secure REST APIs, structuring relational databases with integrity, and establishing strict server-side validation—while maintaining full-stack breadth to ship intuitive, responsive web interfaces.
 
 * 🔭 **Currently focused on:** Backend engineering, high-performance REST APIs, database modeling, and system architecture.
 * 🛠️ **Building with:** Python (FastAPI/Flask), TypeScript, Node.js, Express, React, Next.js, and SQL.
@@ -62,7 +67,7 @@ I build web applications, backend services, and data-driven systems with a stron
 
 #### 🛡️ Quality, Security & Engineering Practices
 * **Principles:** Strict Separation of Concerns, Server-Side Defensive Validation (Pydantic / Schemas).
-* **Testing & QA:** `pytest`, HTTP testing, error handling, access control, and automated CI workflows.
+* **Testing & QA:** `pytest`, Vitest, HTTP testing, error handling, access control, and automated CI workflows.
 
 <br>
 
@@ -135,7 +140,7 @@ Unlike standard web developer profiles, I have dedicated experience in **AI trai
 
 <br>
 
-## 05 — Development Velocity & GitHub Stats
+## 05 — GitHub Analytics & Activity
 
 <div align="center">
 
@@ -160,15 +165,17 @@ Unlike standard web developer profiles, I have dedicated experience in **AI trai
 
 <br>
 
-## 06 — Currently Learning & Connect
+## 06 — Currently Exploring & Focus
 
 ```yaml
-currently_learning_and_leveling_up:
+focus_and_continuous_improvement:
   - Advanced Python & FastAPI asynchronous patterns
   - PostgreSQL query optimization, connection pooling & indexing
   - Docker containerization & microservices orchestration
-  - Automated testing, CI/CD, and practical cloud deployments
+  - Practical RAG workflows & production LLM tooling
 ```
+
+<br>
 
 <div align="center">
 
