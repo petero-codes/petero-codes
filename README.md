@@ -1,26 +1,14 @@
-# Peter Njuguna · Software Engineer
+# Hi, I'm Peter 👋
+### Software Engineer · Backend · Full-Stack · AI
+**Nairobi, Kenya** • [Portfolio](https://iam-petero.vercel.app/) • [LinkedIn](https://www.linkedin.com/in/peter-njuguna-13b00a411) • [Email](mailto:chapokumih@gmail.com)
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0D1117&fontColor=58A6FF&text=Peter%20Njuguna&fontSize=36&desc=Software%20Engineer%20%7C%20Backend%20%C2%B7%20Full-Stack%20%C2%B7%20AI&descColor=8B949E&animation=fadeIn&height=180" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0D1117&fontColor=58A6FF&text=Peter%20Njuguna&fontSize=34&desc=Software%20Engineer%20%7C%20Backend%20%C2%B7%20Full-Stack%20%C2%B7%20AI&descColor=8B949E&animation=fadeIn&height=170" />
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&color=58A6FF&center=true&vCenter=true&width=850&height=40&lines=Software+Engineer+%7C+Backend+%C2%B7+Full-Stack+%C2%B7+AI;Specializing+in+Python%2C+APIs%2C+PostgreSQL+%26+React;Building+data-driven+systems+%26+practical+AI+solutions;Nairobi%2C+Kenya" />
-
-<br><br>
-
-[![Backend](https://img.shields.io/badge/Pillar-Backend%20Engineering-58A6FF?style=for-the-badge&logoColor=white)](#02--technical-skills)
-[![Full-Stack](https://img.shields.io/badge/Pillar-Full--Stack%20Web-58A6FF?style=for-the-badge&logoColor=white)](#02--technical-skills)
-[![AI & Automation](https://img.shields.io/badge/Pillar-AI%20%26%20Evaluation-58A6FF?style=for-the-badge&logoColor=white)](#04--ai--technical-evaluation)
-[![Data & SQL](https://img.shields.io/badge/Pillar-Data%20%26%20SQL-58A6FF?style=for-the-badge&logoColor=white)](#02--technical-skills)
-
-<br><br>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=58A6FF)](https://iam-petero.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF)](https://www.linkedin.com/in/peter-njuguna-13b00a411)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF)](mailto:chapokumih@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF)](https://github.com/petero-codes)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&color=58A6FF&center=true&vCenter=true&width=850&height=36&lines=Software+Engineer+%7C+Backend+%C2%B7+Full-Stack+%C2%B7+AI;Specializing+in+Python%2C+FastAPI%2C+PostgreSQL+%26+React;Building+production+APIs+%26+practical+AI+evaluations;Nairobi%2C+Kenya" />
 
 </div>
 
@@ -28,20 +16,13 @@
 
 ## 01 — About Me
 
-I am a **Software Engineer** based in Nairobi, Kenya, building applications, backend services, and data-driven systems with a strong foundation in **Python**, modern JavaScript/TypeScript, and relational databases. 
+I build web applications, backend services, and data-driven systems with a strong focus on clean architecture, secure data handling, and maintainable code. My primary specialization is **backend engineering with Python and PostgreSQL**, complemented by the full-stack capability to design and ship responsive user interfaces.
 
-My engineering focuses on **backend architecture as my main specialization**—designing secure REST APIs, structuring relational databases with integrity, and establishing strict server-side validation—while maintaining the full-stack breadth to ship intuitive web interfaces. 
-
-Beyond software development, I have concrete experience in **AI training and evaluation**, reviewing model reasoning, validating datasets, and automating QA pipelines.
-
-```bash
-$ cat .engineer-profile
-ROLE        = Software Engineer | Backend · Full-Stack · AI
-CORE_FOCUS  = Scalable APIs · Database Modeling · System Architecture · AI Evaluation
-PRIMARY     = Python (FastAPI, Flask) · PostgreSQL · Node.js · TypeScript · React
-LOCATION    = Nairobi, Kenya (UTC+03:00)
-OPEN_TO     = Backend Engineering · Full-Stack Roles · Python Development · Remote Teams
-```
+* 🔭 **Currently focused on:** Backend engineering, high-performance REST APIs, database modeling, and system architecture.
+* 🛠️ **Building with:** Python (FastAPI/Flask), TypeScript, Node.js, Express, React, Next.js, and SQL.
+* 🗄️ **Databases:** PostgreSQL, MySQL, and MongoDB.
+* 🤖 **Exploring & Applying:** Practical AI integration, LLM evaluation, and automated quality assurance pipelines.
+* 🎯 **Goal:** Engineer reliable, production-ready systems and contribute to high-impact engineering teams.
 
 <br>
 
@@ -59,107 +40,92 @@ OPEN_TO     = Backend Engineering · Full-Stack Roles · Python Development · R
 
 ## 02 — Technical Skills
 
-Skills grouped by domain and practical application:
+Consistent skill ecosystem powered by [Skill Icons](https://github.com/tandpfun/skill-icons):
 
-<table>
-  <thead>
-    <tr>
-      <th width="24%">Domain</th>
-      <th width="48%">Core Technologies & Focus</th>
-      <th width="28%">Proficiency Level</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>Backend Engineering</b></td>
-      <td><code>Python</code>, <code>FastAPI</code>, <code>Node.js</code>, <code>Express.js</code>, RESTful APIs, JWT Auth, Role-Based Access Control (RBAC)</td>
-      <td><code>● Experienced</code> (Primary Specialization)</td>
-    </tr>
-    <tr>
-      <td><b>Frontend Development</b></td>
-      <td><code>React.js</code>, <code>Next.js</code>, <code>TypeScript</code>, <code>JavaScript (ES6+)</code>, Tailwind CSS, Responsive UI/UX</td>
-      <td><code>● Experienced</code> (Production Applications)</td>
-    </tr>
-    <tr>
-      <td><b>Databases & Data</b></td>
-      <td><code>PostgreSQL</code>, <code>MySQL</code>, <code>MongoDB</code>, <code>SQLAlchemy</code>, Data Validation, Schema Normalization</td>
-      <td><code>● Experienced</code> (Relational & Document)</td>
-    </tr>
-    <tr>
-      <td><b>AI & Automation</b></td>
-      <td>LLM Integration, Model Output Evaluation, Prompt Engineering, Dataset Annotation & Validation, Python Automation</td>
-      <td><code>● Experienced</code> (Proven Track Record)</td>
-    </tr>
-    <tr>
-      <td><b>DevOps & Infrastructure</b></td>
-      <td><code>Git</code>, <code>GitHub Actions (CI/CD)</code>, <code>Linux</code>, <code>Docker</code>, Postman, Vercel</td>
-      <td><code>◐ Used in Projects</code></td>
-    </tr>
-    <tr>
-      <td><b>Quality & Security</b></td>
-      <td>API Security, Server-Side Validation, <code>pytest</code>, Error Handling, Access Control, Code Review</td>
-      <td><code>● Core Practice</code></td>
-    </tr>
-  </tbody>
-</table>
+#### ⚡ Backend & Databases *(Primary Specialization)*
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express,postgres,mysql,mongodb&theme=dark" alt="Backend & Databases" />
+  </a>
+</p>
 
-> **Distinction:** Technologies listed as *Experienced* represent production/client projects. Advanced cloud platforms, Redis caching, and container orchestration are active development areas where I build and test in personal architectures.
+* **Core Backend:** Python, FastAPI, Flask, Node.js, Express.js, RESTful APIs, JWT Authentication, Role-Based Access Control (RBAC).
+* **Databases & ORMs:** PostgreSQL, MySQL, MongoDB, SQLAlchemy, Alembic migrations, database indexing, and query optimization.
+
+#### 🎨 Frontend & Web Development
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" alt="Frontend Development" />
+  </a>
+</p>
+
+* **UI & Client Architecture:** TypeScript, JavaScript (ES6+), React.js, Next.js, Tailwind CSS, Responsive Design, State Management.
+
+#### 🛠️ DevOps, Infrastructure & Tools
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman,vscode&theme=dark" alt="Tools & DevOps" />
+  </a>
+</p>
+
+* **Tooling:** Git, GitHub Actions (CI/CD), Linux CLI, Docker (Personal Architectures), Postman, VS Code, Vercel.
+
+#### 🛡️ Quality, Security & Engineering Practices
+* **Principles:** Strict Separation of Concerns, Server-Side Defensive Validation (Pydantic / Schemas).
+* **Testing & QA:** `pytest`, HTTP testing, error handling, access control, and automated CI workflows.
 
 <br>
 
 ## 03 — Featured Projects
 
-Showcasing cross-discipline capability across backend design, full-stack development, and practical data flows:
-
 ### 1. [Seekon Sneakerverse](https://github.com/petero-codes) — Full-Stack E-Commerce Platform
-> Production-style sneaker & apparel discovery platform built with high performance and intuitive product browsing.
-* **Domain:** Full-Stack Web Application
-* **Stack:** React.js · Node.js · Express.js · MongoDB / PostgreSQL · Tailwind CSS
-* **Architecture & Highlights:**
-  * Modular product catalog with dynamic filtering by brand, release, and pricing tier.
-  * Server-side inventory tracking and persistent cart state management.
-  * Responsive storefront optimized for mobile performance and accessibility.
-  * REST API endpoints structured for product retrieval, session handling, and checkout workflows.
+> Complete sneaker and apparel discovery experience built for speed, catalog browsing, and seamless cart operations.
+* **Tech Stack:** React.js · Node.js · Express.js · MongoDB / PostgreSQL · Tailwind CSS
+* **Highlights:**
+  * Dynamic catalog filtering by release date, brand, and pricing tiers.
+  * Persistent shopping cart state and responsive storefront interface.
+  * REST API endpoints designed for inventory retrieval and session management.
+* [**View Source Code →**](https://github.com/petero-codes)
 
 ---
 
 ### 2. [Merygoround](https://github.com/petero-codes) — Rotating Savings & Contribution Engine
 > Financial management platform designed for structured group savings (ROSCA) and automated contribution schedules.
-* **Domain:** FinTech & State Management
-* **Stack:** React.js · Node.js · REST APIs · Relational Modeling
-* **Architecture & Highlights:**
-  * Deterministic rotation algorithms managing participant payout order and contribution deadlines.
-  * Transparent audit logging and payout validation to ensure balance integrity.
-  * Role-based views for group administrators versus individual contributors.
+* **Tech Stack:** React.js · Node.js · REST APIs · Relational Modeling
+* **Highlights:**
+  * Deterministic scheduling algorithms managing participant payout rotation cycles.
+  * Audit logging and transaction history to verify group contribution compliance.
+  * Transparent dashboards reflecting real-time member records and status.
+* [**View Source Code →**](https://github.com/petero-codes)
 
 ---
 
 ### 3. [Production Backend & API Architecture](https://github.com/petero-codes)
-> High-performance API demonstrating production-ready backend design patterns, secure data handling, and automated test pipelines.
-* **Domain:** Backend Engineering & Systems Design
-* **Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker
-* **Architecture & Highlights:**
-  * Clean architectural separation: API Router → Business Service Layer → Database Repository Pattern.
-  * Defensive input validation using Pydantic schemas to ensure untrusted input never reaches queries.
-  * Stateless JWT authentication with granular permission scopes and Role-Based Access Control (RBAC).
-  * Automated migration workflows with Alembic and comprehensive unit/integration test suites via `pytest`.
+> Demonstrating production-grade backend design patterns, secure data handling, and automated test pipelines.
+* **Tech Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker
+* **Highlights:**
+  * Clean architectural boundaries: Router → Service Layer → Repository Pattern.
+  * Strict defensive input validation using Pydantic schemas.
+  * Stateless JWT authentication with granular permission scopes (RBAC).
+  * Automated migration workflows with Alembic and comprehensive test suites via `pytest`.
+* [**Explore Repositories →**](https://github.com/petero-codes)
 
 ---
 
 ### 4. [AI Evaluation & Automated Verification Framework](https://github.com/petero-codes)
-> Quality assurance and evaluation workflows for large language models, dataset integrity, and fact verification.
-* **Domain:** AI Engineering & Quality Assurance
-* **Stack:** Python · LLM Assessment Frameworks · Data Validation
-* **Architecture & Highlights:**
+> Structured quality assurance workflows for large language models, dataset integrity, and fact verification.
+* **Tech Stack:** Python · LLM Assessment Frameworks · Data Validation
+* **Highlights:**
   * Evaluated and ranked 1,000+ AI-generated responses for reasoning accuracy, instruction adherence, and safety.
   * Automated benchmark evaluation scripts to detect hallucination and measure response quality.
   * Standardized datasets for high-fidelity model alignment and fine-tuning pipelines.
+* [**Explore AI Work →**](https://github.com/petero-codes)
 
 <br>
 
 ## 04 — AI & Technical Evaluation
 
-Unlike traditional web-only profiles, I have dedicated experience in **AI training, evaluation, and quality assurance**:
+Unlike standard web developer profiles, I have dedicated experience in **AI training, evaluation, and quality assurance**:
 
 ```
   ┌────────────────────────────────────────────────────────────────────────┐
@@ -174,22 +140,12 @@ Unlike traditional web-only profiles, I have dedicated experience in **AI traini
 ```
 
 * **1,000+ Model Output Evaluations:** Analyzed and ranked large language model responses across multi-step reasoning, mathematical problem-solving, code generation, and instruction-following tasks.
-* **Dataset Quality & Safety Assurance:** Audited structured datasets for truthfulness, bias mitigation, and safety violations.
+* **Dataset Quality & Safety Assurance:** Audited structured datasets for truthfulness, bias mitigation, and safety guidelines.
 * **Workflow Automation with Python:** Created specialized Python scripts to automate format compliance checking, response diffing, and dataset batch verification.
 
 <br>
 
-## 05 — Engineering Principles
-
-* **Separation of Concerns:** Distinct boundaries between HTTP transport, business rules, and persistence.
-* **Defensive Validation:** Strict schema validation at the system boundary before any computation occurs.
-* **Security by Design:** Stateless authentication, hashed secrets, least-privilege access, and CORS hygiene.
-* **Data Integrity:** Foreign key constraints, ACID compliance, query indexing, and versioned database migrations.
-* **Testing & Documentation:** Clear setup instructions, environment variable specifications, and automated testing.
-
-<br>
-
-## 06 — Activity & Development Velocity
+## 05 — Development Velocity & GitHub Stats
 
 <div align="center">
 
@@ -214,26 +170,26 @@ Unlike traditional web-only profiles, I have dedicated experience in **AI traini
 
 <br>
 
-## 07 — Currently Focusing On & Contact
+## 06 — Currently Learning & Connect
 
 ```yaml
-learning_and_leveling_up:
+currently_learning_and_leveling_up:
   - Advanced Python & FastAPI asynchronous patterns
   - PostgreSQL query optimization, connection pooling & indexing
   - Docker containerization & microservices orchestration
-  - Practical RAG & production LLM tooling
+  - Automated testing, CI/CD, and practical cloud deployments
 ```
 
 <div align="center">
 
-### Let's Build Together
+### Let's Connect & Collaborate
 
 Whether you are looking for a **Software Engineer**, **Backend Specialist**, or need **Python / AI Evaluation** expertise:
 
-[**Portfolio**](https://iam-petero.vercel.app) •
+[**Portfolio**](https://iam-petero.vercel.app/) •
+[**GitHub**](https://github.com/petero-codes) •
 [**LinkedIn**](https://www.linkedin.com/in/peter-njuguna-13b00a411) •
-[**Email Me**](mailto:chapokumih@gmail.com) •
-[**GitHub Repositories**](https://github.com/petero-codes)
+[**Email Me**](mailto:chapokumih@gmail.com)
 
 <br>
 
