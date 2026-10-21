@@ -81,12 +81,12 @@
 
     <!-- Dynamic Quote Lines -->
     <text x="82" y="88" fill="#e6edf3" font-size="15" font-weight="500" class="sans">
-      <tspan x="82" dy="0">The function of good software is to make the complex appear to be</tspan>
-      <tspan x="82" dy="24">simple.</tspan>
+      <tspan x="82" dy="0">Walking on water and developing software from a specification are easy</tspan>
+      <tspan x="82" dy="24">if both are frozen.</tspan>
     </text>
 
     <!-- Author & Attribution -->
-    <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— Grady Booch</text>
+    <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— Edward V. Berard</text>
 
     <!-- Clean Footer -->
     <text x="82" y="172" fill="#6e7681" font-size="10.5" class="mono">// Peter Njuguna · Software Engineering &amp; Systems Architecture</text>
