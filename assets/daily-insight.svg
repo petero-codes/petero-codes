@@ -80,12 +80,13 @@
     <text x="50" y="105" fill="#58a6ff" font-size="34" font-weight="800" opacity="0.6" class="sans">“</text>
 
     <!-- Dynamic Quote Lines -->
-    <text x="82" y="100" fill="#e6edf3" font-size="15" font-weight="500" class="sans">
-      <tspan x="82" dy="0">Truth can only be found in one place: the code.</tspan>
+    <text x="82" y="88" fill="#e6edf3" font-size="15" font-weight="500" class="sans">
+      <tspan x="82" dy="0">Programs must be written for people to read, and only incidentally for</tspan>
+      <tspan x="82" dy="24">machines to execute.</tspan>
     </text>
 
     <!-- Author & Attribution -->
-    <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— Robert C. Martin</text>
+    <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— Harold Abelson</text>
 
     <!-- Clean Footer -->
     <text x="82" y="172" fill="#6e7681" font-size="10.5" class="mono">// Peter Njuguna · Software Engineering &amp; Systems Architecture</text>
