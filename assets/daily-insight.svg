@@ -81,11 +81,11 @@
 
     <!-- Dynamic Quote Lines -->
     <text x="82" y="100" fill="#e6edf3" font-size="15" font-weight="500" class="sans">
-      <tspan x="82" dy="0">Testing leads to failure, and failure leads to understanding.</tspan>
+      <tspan x="82" dy="0">The only way to go fast, is to go well.</tspan>
     </text>
 
     <!-- Author & Attribution -->
-    <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— Burt Rutan</text>
+    <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— Robert C. Martin</text>
 
     <!-- Clean Footer -->
     <text x="82" y="172" fill="#6e7681" font-size="10.5" class="mono">// Peter Njuguna · Software Engineering &amp; Systems Architecture</text>
