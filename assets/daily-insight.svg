@@ -80,13 +80,12 @@
     <text x="50" y="105" fill="#58a6ff" font-size="34" font-weight="800" opacity="0.6" class="sans">“</text>
 
     <!-- Dynamic Quote Lines -->
-    <text x="82" y="88" fill="#e6edf3" font-size="15" font-weight="500" class="sans">
-      <tspan x="82" dy="0">It is not enough for code to work. It must be clean, maintainable, and</tspan>
-      <tspan x="82" dy="24">resilient.</tspan>
+    <text x="82" y="100" fill="#e6edf3" font-size="15" font-weight="500" class="sans">
+      <tspan x="82" dy="0">Simplicity is prerequisite for reliability.</tspan>
     </text>
 
     <!-- Author & Attribution -->
-    <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— Clean Code Philosophy</text>
+    <text x="82" y="148" fill="#58a6ff" font-size="13.5" font-weight="600" class="sans">— Edsger W. Dijkstra</text>
 
     <!-- Clean Footer -->
     <text x="82" y="172" fill="#6e7681" font-size="10.5" class="mono">// Peter Njuguna · Software Engineering &amp; Systems Architecture</text>
