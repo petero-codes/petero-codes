@@ -159,7 +159,7 @@ In AI assessment and evaluation workflows, I apply empirical rubrics rather than
 - **Portfolio**: [iam-petero.vercel.app](https://iam-petero.vercel.app/)
 - **GitHub**: [github.com/petero-codes](https://github.com/petero-codes)
 - **LinkedIn**: [linkedin.com/in/peter-njuguna-13b00a411](https://www.linkedin.com/in/peter-njuguna-13b00a411)
-- **Email**: [waynelulu6@gmail.com](mailto:waynelulu6@gmail.com)
+
 
 
 <!-- DAILY-INSIGHT:START -->
