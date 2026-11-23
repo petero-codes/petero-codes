@@ -160,3 +160,12 @@ In AI assessment and evaluation workflows, I apply empirical rubrics rather than
 - **GitHub**: [github.com/petero-codes](https://github.com/petero-codes)
 - **LinkedIn**: [linkedin.com/in/peter-njuguna-13b00a411](https://www.linkedin.com/in/peter-njuguna-13b00a411)
 - **Email**: [waynelulu6@gmail.com](mailto:waynelulu6@gmail.com)
+
+
+<!-- DAILY-INSIGHT:START -->
+<div align="center">
+
+<img src="assets/daily-insight.svg" alt="Engineering Principles - Peter Njuguna" width="850" />
+
+</div>
+<!-- DAILY-INSIGHT:END -->
